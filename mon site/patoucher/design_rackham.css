@@ -1,0 +1,161 @@
+@font-face
+{
+	font-family: parchemin;
+		src: url('font/Leander.woff')format('woff');
+}
+
+@font-face
+{
+	font-family:plume;
+		src: url('font/Gondola.woff') format('woff');
+}
+
+@font-face
+{
+	font-family:pirate;
+		src: url('font/Bodedo.woff') format('woff');
+}
+@font-face
+{
+	font-family:rhum;
+		src: url('font/Mothproof.woff') format('woff');
+}
+
+/*corps principale*/
+#page
+{
+	width: 90%;
+	margin: auto;
+}
+body
+{
+	background-color: #ffd1a1
+}
+
+h1
+{
+	font-family: rhum;
+	font-size: 50px;
+	font-style: italic;
+	color: black
+}
+
+h2
+{
+	font-family: pirate;
+	font-size: 25px;
+	font-style: oblique;
+}
+
+li a, footer a
+{
+	font-family: pirate;
+	font-weight: bold;
+	font-size: 20px;
+	color: #212121;
+}
+
+h3
+{
+	font-family: pirate;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+p, li
+{
+	font-family: parchemin;
+	font-size: medium;
+	text-align: justify;
+	font-size: 16px
+
+}
+/*header*/
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	min-width: 1200px;
+	height: 353px;
+	background-image: url('background.jpg');
+	border-radius: 175px 0 50px 0
+}
+
+.logotitre
+{
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row;
+	min-width: 675px;
+}
+.titre
+{
+	display: flex;
+	display: block;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+.menu
+{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	justify-content: space-between;
+	margin-bottom: auto;
+	padding: 25px 10px;
+	min-width: 400px;
+	background-color: grey;
+	border-radius: 50px 0 50px 0
+}
+/*middle*/
+article
+{
+	display: flex;
+	flex-direction: column;
+}
+
+article section
+{
+	display: inline-block;
+	justify-content: flex-start;
+	
+	width: 70%
+}
+
+p a
+{
+	color: #212121;
+	font-weight: bold;
+}
+
+.secret p
+{
+	text-align: center;
+	color: #ffd1a1;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.compo
+{
+	display: flex;
+	padding-left: 25px;
+	flex-direction: column;
+}
+.ordonner
+{
+	display: flex;
+	flex-wrap: nowrap;
+}
+/*bottom*/
+
+footer
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
